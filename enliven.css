@@ -309,3 +309,24 @@ button:active{
     display: flex;
     align-items: baseline;
 }
+.circle1,.circle2,.circle3,.circle4{
+   
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    margin: 0px;
+    left: 2%;
+    top: 2%;
+    border-radius: 50%;
+}
+img{
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    margin: 0px;
+    border-radius: 50%;
+    transition-duration: 0.15s;
+}
+img:hover{
+    scale: 1.1;
+}
