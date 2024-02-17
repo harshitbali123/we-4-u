@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE 4 U</title>
+    <link rel="stylesheet" href="./enliven.css">
+</head>
+<body>
+    <div id="we_4_u">
+        <div id="navbar"> 
+              <header>
+            <a href="#" class="logo"><div>WE 4 U</div></a>
+                <ul>
+                    
+                    <li><button><a href="#">Contact us</a></button></li>
+            <div>
+
+            </div>       
+                </ul>
+            </a>
+        </header>
+        <section class="banner"></section>
+        <section class="banner2"></section></div>
+        <div id="name_of_website">
+        </div>
+        <div id="temples">
+           <button class="religious"> <div >religious institutions</div></button>
+            <button class="ngo">      <div >ngo</div></button>
+        </div>
+        <div id="info">
+            <div class="religious_info  first"></div>
+            <div class="religious_info  second"></div>
+            <div class="religious_info  third"></div>
+            <div class="religious_info  fourth"></div>
+            
+        </div>
+        <div id="footer">
+            <div class="religious_info  fifth"></div>
+            <div class="religious_info  sixth"></div>
+            <div class="religious_info  seventh"></div>
+        </div>
+       
+    </div>
+    <div id="hell">
+        <video autoplay  muted loop id="video">
+            <source src="" 
+            type="video/mp4">
+          </video>
+        
+    </div>
+
+    <script>
+        
+        var loader = document.getElementById("hell");
+        window.addEventListener('load',function(){
+            loader.style.display="none";
+        })
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+    </script>
+    
+</body>
+
+</html>
